@@ -1,0 +1,89 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 0;
+    padding: 0;
+}
+
+.details{
+    background-color: hsl(0, 0%, 100%);
+    width: 230px;
+    border-radius :0px 15px 15px 0px;
+    height: 405px;
+    padding: 25px;
+}
+
+.centerDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+.paragraph{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-weight: 900;
+    padding-bottom: 12px;
+    line-height: 22px;
+}
+
+img{
+    width: 270px;
+    border-radius :15px 0px 0px 15px;
+}
+
+.brand{
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+
+
+.title{
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    color:hsl(212, 21%, 14%);
+    font-weight: 900;
+    line-height: 35px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.oldPrice{
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    position: relative;
+}
+
+.oldPrice::after{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: hsl(228, 12%, 48%);
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+  } 
+
+.newPrice{
+    color: hsl(158, 36%, 37%);
+    font-size: 35px;
+    font-family: 'Fraunces', serif;
+    font-weight: bold;
+}
+
+.cartBtn{
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cartBtn:hover{
+    background-color: hsl(158, 59%, 16%);
+}
